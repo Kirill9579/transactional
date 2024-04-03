@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+ postgres_db:
+    container_name: postgres_db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=root
+    volumes:
+      - psqldb:/var/lib/postgresql/data
+    image: postgres:15-alpine
+volumes:
+  psqldb:
+
+    
