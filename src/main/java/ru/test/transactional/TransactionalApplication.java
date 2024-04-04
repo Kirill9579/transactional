@@ -39,10 +39,10 @@ public class TransactionalApplication {
         return transactionManager;
     }
 
-//    @Bean
-//    public ChainedKafkaTransactionManager chainedKafkaTransactionManager(KafkaTransactionManager kafkaTransactionManager, PlatformTransactionManager transactionManager) {
-//        return new ChainedKafkaTransactionManager(kafkaTransactionManager, transactionManager);
-//    }
+    @Bean
+    public ChainedKafkaTransactionManager chainedKafkaTransactionManager(KafkaTransactionManager kafkaTransactionManager, PlatformTransactionManager transactionManager) {
+        return new ChainedKafkaTransactionManager(kafkaTransactionManager, transactionManager);
+    }
     @Bean
     public Runnable run() {
         return () -> {
