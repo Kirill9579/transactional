@@ -1,0 +1,20 @@
+Log starting offset: 5
+baseOffset: 0 lastOffset: 4 count: 5 baseSequence: 0 lastSequence: 4 producerId: 0 producerEpoch: 154 partitionLeaderEpoch: 0 isTransactional: true isControl: false deleteHorizonMs: OptionalLong.empty position: 0 CreateTime: 1712331202208 size: 1061 magic: 2 compresscodec: none crc: 3560160671 isvalid: true
+| offset: 0 CreateTime: 1712331202200 keySize: -1 valueSize: 43 sequence: 0 headerKeys: [contentType,target-protocol,spring_json_header_types] payload: Name 1 d16f19a1-7712-4b54-9239-d3727f4445e2
+| offset: 1 CreateTime: 1712331202207 keySize: -1 valueSize: 43 sequence: 1 headerKeys: [contentType,target-protocol,spring_json_header_types] payload: Name 1 d16f19a1-7712-4b54-9239-d3727f4445e2
+| offset: 2 CreateTime: 1712331202207 keySize: -1 valueSize: 43 sequence: 2 headerKeys: [contentType,target-protocol,spring_json_header_types] payload: Name 1 d16f19a1-7712-4b54-9239-d3727f4445e2
+| offset: 3 CreateTime: 1712331202208 keySize: -1 valueSize: 43 sequence: 3 headerKeys: [contentType,target-protocol,spring_json_header_types] payload: Name 1 d16f19a1-7712-4b54-9239-d3727f4445e2
+| offset: 4 CreateTime: 1712331202208 keySize: -1 valueSize: 43 sequence: 4 headerKeys: [contentType,target-protocol,spring_json_header_types] payload: Name 1 d16f19a1-7712-4b54-9239-d3727f4445e2
+baseOffset: 5 lastOffset: 5 count: 1 baseSequence: -1 lastSequence: -1 producerId: 0 producerEpoch: 154 partitionLeaderEpoch: 0 isTransactional: true isControl: true deleteHorizonMs: OptionalLong.empty position: 1061 CreateTime: 1712331202243 size: 78 magic: 2 compresscodec: none crc: 1411592166 isvalid: true
+| offset: 5 CreateTime: 1712331202243 keySize: 4 valueSize: 6 sequence: -1 headerKeys: [] endTxnMarker: COMMIT coordinatorEpoch: 0
+
+
+
+
+
+
+Log starting offset: 0
+baseOffset: 0 lastOffset: 0 count: 1 baseSequence: 0 lastSequence: 0 producerId: 0 producerEpoch: 158 partitionLeaderEpoch: 0 isTransactional: true isControl: false deleteHorizonMs: OptionalLong.empty position: 0 CreateTime: 1712644033271 size: 261 magic: 2 compresscodec: none crc: 4239429806 isvalid: true
+| offset: 0 CreateTime: 1712644033271 keySize: -1 valueSize: 43 sequence: 0 headerKeys: [contentType,target-protocol,spring_json_header_types] payload: Name 1 e1679db7-63d3-4fd3-b669-37c6335bc99a
+baseOffset: 1 lastOffset: 1 count: 1 baseSequence: -1 lastSequence: -1 producerId: 0 producerEpoch: 158 partitionLeaderEpoch: 0 isTransactional: true isControl: true deleteHorizonMs: OptionalLong.empty position: 261 CreateTime: 1712644035327 size: 78 magic: 2 compresscodec: none crc: 1918380719 isvalid: true
+| offset: 1 CreateTime: 1712644035327 keySize: 4 valueSize: 6 sequence: -1 headerKeys: [] endTxnMarker: ABORT coordinatorEpoch: 0
